@@ -41,7 +41,7 @@ locals {
 variable "aws_env" {
   description = "AWS environment you are deploying to. Will be appended to SNS topic and alarm name. (e.g. dev, stage, prod)"
   type        = string
-  default = "ziyotek_v2"
+  default = "mali_v2"
 }
 
 variable "monthly_billing_threshold" {

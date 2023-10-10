@@ -17,7 +17,7 @@ terraform {
 module "billing_alert" {
   source = "binbashar/cost-billing-alarm/aws"
 
-  aws_env = "ziyotek"
+  aws_env = "mali"
   monthly_billing_threshold = 30
   currency = "USD"
   create_sns_topic = true
